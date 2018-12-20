@@ -3,11 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/khang/web/news/admin/.htaccess</file>
-            <file>file:/home/khang/web/news/admin/includes/header.php</file>
-            <file>file:/home/khang/web/news/admin/templates/content.php</file>
-            <file>file:/home/khang/web/news/admin/templates/nhanvien.php</file>
-            <file>file:/home/khang/web/news/admin/templates/sidebar.php</file>
+            <file>file:/home/khang/web/news/frontend/form/dangki.php</file>
+            <file>file:/home/khang/web/news/frontend/js/dangky.js</file>
+            <file>file:/home/khang/web/news/frontend/dangnhap.php</file>
+            <file>file:/home/khang/web/news/frontend/dangky.php</file>
         </group>
     </open-files>
 </project-private>

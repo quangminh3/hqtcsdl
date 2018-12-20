@@ -21,19 +21,17 @@
                 <div class="media-body">
                     <h4 class="media-heading"><?php echo $data_user['FULLNAME']; ?></h4>
                     <?php
-
-                    // Hiển thị cấp bậc tài khoản
-                    // Nếu tài khoản là admin
-                    if ($data_user['POSITION'] == '1')
-                    {
-                        echo '<span class="label label-primary ">Quản trị viên</span>';
-                    }
-                    // Ngược lại tài khoản là tác giả
-                    else
-                    {
-                        echo '<span class="label label-success ">Nhân viên</span>';
-                    }
-
+                        // Hiển thị cấp bậc tài khoản
+                        // Nếu tài khoản là admin
+                        if ($data_user['POSITION'] == '1')
+                        {
+                            echo '<span class="label label-primary ">Quản trị viên</span>';
+                        }
+                        // Ngược lại tài khoản là tác giả
+                        else
+                        {
+                            echo '<span class="label label-success ">Nhân viên</span>';
+                        }
                     ?>
                 </div>
             </div>
@@ -66,7 +64,6 @@
                 </a>  
             ';
         }
-
         ?>
         <a class="list-group-item" href="<?php echo $_DOMAIN; ?>signout.php">
             <span class="glyphicon glyphicon-off"></span> Thoát
